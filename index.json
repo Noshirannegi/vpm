@@ -1,7 +1,31 @@
 {
-  "name": "Noshi",
-  "id": "jp.noshi.vpm",
-  "url": "https://noshirannegi.github.io/vpm/index.json",
-  "author": "Noshi",
-  "packages": {}
+    "name":  "Noshi",
+    "id":  "jp.noshi.vpm",
+    "url":  "https://noshirannegi.github.io/vpm/index.json",
+    "author":  "Noshi",
+    "packages":  {
+                     "jp.noshi.omokage":  {
+                                              "versions":  {
+                                                               "1.0.0-beta.1":  {
+                                                                                    "name":  "jp.noshi.omokage",
+                                                                                    "displayName":  "おもかげ（Omokage）",
+                                                                                    "version":  "1.0.0-beta.1",
+                                                                                    "unity":  "2022.3",
+                                                                                    "description":  "VRChat Avatars 3.0 向けの表情ツール。表情づくり・ハンドサインへの割り当て・表情ごとのまばたき・メニュー生成を 1 つの画面で。",
+                                                                                    "author":  {
+                                                                                                   "name":  "Noshi",
+                                                                                                   "url":  "https://noshiran-shop.booth.pm/"
+                                                                                               },
+                                                                                    "license":  "MIT",
+                                                                                    "documentationUrl":  "https://noshirannegi.github.io/vpm/",
+                                                                                    "vpmDependencies":  {
+                                                                                                            "com.vrchat.avatars":  "\u003e=3.5.0",
+                                                                                                            "nadena.dev.modular-avatar":  "\u003e=1.10.0"
+                                                                                                        },
+                                                                                    "url":  "https://github.com/Noshirannegi/vpm/releases/download/omokage-1.0.0-beta.1/jp.noshi.omokage-1.0.0-beta.1.zip",
+                                                                                    "zipSHA256":  "c3f24e5b46c2431b7078d088cd0f1181966d8f84f1f0171f62d9d264d579a27d"
+                                                                                }
+                                                           }
+                                          }
+                 }
 }
