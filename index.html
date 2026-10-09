@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>おもかげ（Omokage）— VCC リポジトリ</title>
+<style>
+  :root { --bg: #f7f6f3; --fg: #1d1d1f; --muted: #6b6b70; --card: #fff; --line: #e3e1dc; --accent: #2f7d8c; --accent-fg: #fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17181a; --fg: #ececec; --muted: #a0a0a6; --card: #212226; --line: #33343a; --accent: #4fb0c2; --accent-fg: #0d1416; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; line-height: 1.7; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; margin-bottom: 16px; }
+  .card h2 { font-size: 1.05rem; margin: 0 0 8px; }
+  .button { display: inline-block; background: var(--accent); color: var(--accent-fg); text-decoration: none; font-weight: 600; padding: 10px 18px; border-radius: 8px; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: .9em; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 2px 6px; word-break: break-all; }
+  ol { padding-left: 1.3em; margin: 8px 0 0; }
+  .muted { color: var(--muted); font-size: .92rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>おもかげ（Omokage）</h1>
+  <p class="sub">VRChat の表情ツール。表情づくり・ハンドサインへの割り当て・表情ごとのまばたき・メニュー生成を 1 つの画面で。</p>
+
+  <div class="card">
+    <h2>1. VCC にリポジトリを追加する</h2>
+    <p><a class="button" href="vcc://vpm/addRepo?url=https://noshirannegi.github.io/vpm/index.json">VCC に追加</a></p>
+    <p class="muted">ボタンが効かないときは、VCC の Settings → Packages → Add Repository に次を貼り付けてください。<br>
+    <code>https://noshirannegi.github.io/vpm/index.json</code></p>
+  </div>
+
+  <div class="card">
+    <h2>2. Modular Avatar のリポジトリも追加する</h2>
+    <p class="muted">おもかげは Modular Avatar を使います。まだなら <a href="https://modular-avatar.nadena.dev/ja/">Modular Avatar のページ</a>の「Add to VCC」から追加してください。</p>
+  </div>
+
+  <div class="card">
+    <h2>3. プロジェクトに入れる</h2>
+    <ol>
+      <li>VCC でプロジェクトの「Manage Project」を開く</li>
+      <li>「おもかげ（Omokage）」の ＋ を押す（Modular Avatar も一緒に入ります）</li>
+      <li>Unity のメニュー「おもかげ → おもかげ」で画面が開きます</li>
+    </ol>
+    <p class="muted">旧版（v0.9 系・.unitypackage で入れたもの）を使っていた人は、先に Unity を閉じて <code>Packages/jp.noshi.omokage</code> フォルダを消してください。</p>
+  </div>
+
+  <div class="card">
+    <h2>おもかげ Live</h2>
+    <p class="muted">コントローラーで目と口を動かす「Live」には、PC で動かす Omokage Companion（BOOTH・有料）が要ります。<br>
+    <a href="https://noshiran-shop.booth.pm/">BOOTH のショップ</a></p>
+  </div>
+
+  <p class="muted">おもかげは MIT ライセンスです。不具合の報告は、おもかげの「不具合報告用の情報をまとめる」で作った zip を添えて、BOOTH のメッセージでお送りください。</p>
+</main>
+</body>
+</html>
