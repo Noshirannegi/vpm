@@ -1,5 +1,11 @@
 {
-  "omokage": { "version": "", "notes": "" },
-  "companion": { "version": "1.0.0", "notes": "" },
-  "url": "https://noshiran-shop.booth.pm/"
+    "omokage":  {
+                    "version":  "1.0.0",
+                    "notes":  "おもかげ 1.0 を公開しました。生成エンジンを含めて作り直した版です。"
+                },
+    "companion":  {
+                      "version":  "1.0.0",
+                      "notes":  ""
+                  },
+    "url":  "https://noshiran-shop.booth.pm/"
 }
